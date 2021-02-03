@@ -3,7 +3,7 @@ import express from 'express';
 const app = express();
 
 app.get('/', (request, response) => {
-  response.json({ message: 'Hello Typescript' });
+  return response.json({ message: 'Hello Typescript' });
 })
 
 app.listen(3333);
